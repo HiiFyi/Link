@@ -35,7 +35,7 @@ async def render_page(id, secure_hash, src=None):
     with open(template_file) as f:
         template = jinja2.Template(f.read())
 
-    file_name = file_data.file_name.replace("_", " ")
+    file_name = file_data.file_name.replace("_", " ", ".")
 
     return template.render(
         file_name=file_name,

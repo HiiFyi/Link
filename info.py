@@ -32,5 +32,5 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Ritiklink")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'nanolinks.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'c5fd6625d3ac6dc11897b3105ccf385b6c3c6b55')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'onylinks.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e0b993ab824859c3375b05a636c32f5b61d528d2')

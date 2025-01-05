@@ -27,8 +27,8 @@ LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002374955566'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7348205141').split()]
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
-DATABASE_NAME = environ.get('DATABASE_NAME', "Ritiklink")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Linkbot:Linkbot@cluster08766774578.h0jit.mongodb.net/?retryWrites=true&w=majority&appName=Cluster08766774578")
+DATABASE_NAME = environ.get('DATABASE_NAME', "Linkbot")
 
 # Shortlink Info
 SHORTLINK = bool(environ.get('SHORTLINK', True)) # Set True Or False
